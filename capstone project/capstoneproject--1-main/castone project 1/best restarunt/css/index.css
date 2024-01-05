@@ -1,0 +1,247 @@
+#pd{
+
+	height:4300px;
+	width: 100%;
+}
+#c1{
+	height:600px;
+	width: 1269px;
+	background-image:url(../image/chef2.jpg);
+	background-size:1190px 600px;
+	background-repeat:no-repeat;
+	margin-left:50px;
+}
+#im1{
+	height:180px;
+	width:180px;
+	margin-left:550px;
+	margin-top:20px;
+
+}
+#hd1{
+	color:white;
+}
+#p1{
+	color:white;
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+}
+#c2{
+	height:150px;
+	width:1269px;
+}
+#c3{
+	height:300px;
+	width:1269px;
+
+}
+#c31{
+	height:300px;
+	width:43-px;
+	float:left;
+
+}
+#c32{
+	height:300px;
+	width:430px;
+	float:left;
+
+}
+#c33{
+	height:300px;
+	width:430px;
+	float:left;
+
+}
+#c4{
+	height:300px;
+	width:1269px;
+margin-top:100px;
+}
+#c41{
+	height:300px;
+	width:430px;
+	float:left;
+
+}
+#c42{
+	height:300px;
+	width:430px;
+	float:left;
+
+}
+#c43{
+	height:300px;
+	width:43-px;
+	float:left;
+
+}
+#im2{
+	height:300px;
+	width:300px;
+}
+#im3{
+	height:300px;
+	width:300px;
+margin-left:200px;
+
+}
+#im4{
+	height:300px;
+	width:300px;
+
+}
+#p4{
+	margin-top:50px;
+	margin-left:200px;
+	text-align: center;
+}
+#h21{
+	margin-left:180px;
+}
+#p5{
+	text-align: center;
+}
+#p6{
+	text-align: center;
+}
+#c5{
+	height:100px;
+	width:1269px;
+	margin-top:30px;
+}
+#h7{
+	margin-top:50px;
+}
+#c6{
+	height:400px;
+	width:1269px;
+	margin-top:10px;
+}
+#c61{
+	height:400px;
+	width:430px;
+	margin-top:10px;
+	float:left;
+}
+#c62{
+	height:400px;
+	width:430px;
+	margin-top:10px;
+	float:left;
+
+}
+#c63{
+	height:400px;
+	width:43-px;
+	margin-top:10px;
+	float:left;
+
+}
+#sp1{
+	width: 40px;
+	
+}
+#c7{
+	height:400px;
+	width:1269px;
+	background-image:url(../image/drink2.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-left:50px;
+}
+#p8{
+	color:white;
+
+}
+#c8{
+	height:600px;
+	width:1269px;
+
+}
+#c81{
+	height:500px;
+width:634;
+float:left;
+}
+#c82{
+	height:500px;
+width:634;
+float:right;
+}
+#p9{
+	margin-left:180px;
+}
+#p10{
+	margin-left:180px;
+}
+#c11{
+	height:400px;
+	width:1269px;
+	background-image:url(../image/allfood2.jpg.png);
+	background-size:1180px 400px;
+	background-repeat:no-repeat;
+	margin-left:50px;
+	
+}
+#c12{
+	height:300px;
+	width:1269px;
+}
+#i1{
+	font-size:30px;
+	position:relative;
+	left:200px;
+	top:200px;
+}
+#i2{
+	font-size:30px;
+	position:relative;
+	left:400px;
+	top:200px;
+}
+#i3{
+	font-size:30px;
+	position:relative;
+	left:500px;
+	top:200px;
+}
+#i4{
+	font-size:100px;
+	position:relative;
+	left:700px;
+	top:200px;
+}
+#hd3{
+	position:relative;
+top:220px;
+	left:220px;
+}
+#hd4{
+	position:relative;
+top:200px;
+	left:400px;
+}
+#hd5{
+	position:relative;
+top:220px;
+	left:220px;
+}
+#c13{
+	height:300px;
+	width:1269px;
+}
+#c14{
+	height: 200px;
+	width: 1269px;
+	background-color: rgba(11, 11, 11, 0.69);
+	text-align:center;
+	color:white;
+	padding-top:30px;
+	margin-left:50px;
+}
+.pp{
+	text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.external{
+    font-size: 50px;
+    border: 1px solid red ;
+    color: blue ;
+    background-color: black;
+}
+#main{
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+}
+span{
+    color: violet;
+    font-size: 25px;
+    
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"]{
+    color: red;
+}
+a[href]{
+    background-color: ;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    font-size: 35px;
+    color: red;
+}
+a:active{
+    color: black;
+}
+a:link{
+    color: green;
+}

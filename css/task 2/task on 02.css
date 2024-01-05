@@ -1,0 +1,55 @@
+.a{
+    height: 750px;
+    width: 1500px;
+    background-color: rgb(226, 226, 228);
+}
+.b{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    float: left;
+    margin: 100px;
+    margin-right: 0px;
+    border-radius: 50px;
+}
+.b1{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.c{
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+    margin-top: 50px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+hr{
+    width: 300px;
+    margin-left: 50px;
+    background-color: blue;
+    height:2px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+i{
+    font-size: 70px;
+    color: white;
+    margin: 30px;
+}

@@ -1,0 +1,144 @@
+.main{
+    height: 1100px;
+    width: 100%;
+     
+}
+.a{
+    height: 1100px;
+    width: 400px;
+    float: left;
+    background-color: black;
+    padding-left: 50px;
+}
+.b{
+    height: 310px;
+    width: 300px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 150px;
+ box-shadow:0px 0px 25px aqua ;
+}
+.i{
+   
+    background-size: cover;
+    height: 310px;
+    width: 300px;
+    background-image:url(../css/taskimages/praveen.jpg);
+  position: relative;
+    margin-top: 30px;
+    border-radius: 150px;
+}
+.c{
+    height: 120px;
+    width: 80%;
+    background-color: aqua;
+    position: absolute;
+   left: 300px;
+   top: 160px;
+   font-size: 60px;
+   
+}
+
+.icon1{
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 420px;
+    border-radius: 10px;
+    font-size: 30px;
+   
+}
+.icon2{
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 480px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.icon4{
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 540px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.phone{
+    color: aqua;
+    position: absolute;
+    top: 430px;
+    left: 150px;
+}
+.location{
+    color: aqua;
+    position: absolute;
+    top: 490px;
+    left: 150px;
+}
+.email{
+    color: aqua;
+    position: absolute;
+    top: 550px;
+    left: 150px;
+}
+.h{
+    top: 600px;
+    position: absolute;
+    left: 50px;
+    color: aqua;
+    font-size: 20px;
+}
+.hob{
+    color: aqua;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f{
+    color: aqua;
+    font-size: 20px;
+    top: 820px;
+    left: 50px;
+    position: absolute;
+}
+.lan{
+    color: aqua;
+    font-size: 20px;
+    top: 910px;
+    left: 50px;
+    position: absolute;
+}
+span{
+    padding-left: 160px;
+    padding-top: 50px;
+}
+.c2{
+    font-size: 60px;
+    position: absolute;
+    top: 330px;
+    left: 500px;
+}
+.c3{
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left:500px ;
+}
+.c4{
+    font-size: 40px;
+    position: absolute;
+    top: 570px ;
+    left: 500px;
+}
+.b3{
+    font-size: 20px;
+    position: absolute;
+    
+}
