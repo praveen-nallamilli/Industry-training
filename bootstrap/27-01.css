@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+
+}
+.card-img-top{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    
+    
+}
+.card{
+    box-shadow: 3px 3px 5px  orangered;
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+    margin-top: 40px;
+}
+.card-title{
+    position: relative;
+    bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-text{
+    position: relative;
+    bottom: 30px;
+}
+.bi{
+    font-size: 25px;
+    color: green;
+    
+}
+
+.bi:hover{
+    cursor: pointer;
+    color: black;
+}

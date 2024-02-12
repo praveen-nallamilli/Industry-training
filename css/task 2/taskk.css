@@ -1,0 +1,187 @@
+.a{
+    height: 40px;
+    width: 2000px;
+    background-color: white;
+    margin-top: 30px;
+}
+.b{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    margin-left: 20%;
+    margin-top: 5px;
+    float: left;
+    border-radius: 5px;
+}
+.c{
+    height: 30px;
+    width: 110px;
+    background-color: rgb(51, 185, 230);
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    border-radius: 5px;
+
+}
+
+.d{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    float: left;
+    border: 0px;
+}
+#a{
+    margin:5px 20px; 
+    color: white;
+}
+.e{
+    height: 750px;
+    width: 350px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 7%;
+    float: left;
+}
+.f{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    float: left;
+}
+.g{
+    height: 500px;
+    width: 800px;
+    background-color:  white ;
+    margin-top: 480px;
+    margin-left: 395px;
+}
+.h{
+    height: 120px;
+    width: 120px;
+    border: 4px solid blue;
+    border-radius: 60px ;
+    background-color: aquamarine;
+    margin-top: 50px;
+    background-image: url(../taskimages/f3.jpg);
+    background-size: cover;
+}
+.i{
+    height:40px;
+    width: 100px;
+    margin-left: 75px;
+    background-color: blue;
+    border-radius: 6px;
+    float: left;
+    padding-bottom: px;
+}
+.j{
+    height:35px;
+    width: 95px;
+    margin-right: 65px;
+    border: 3px solid blue;
+    border-radius: 6px;
+    float: right;
+}
+.k{
+    height: 40px;
+    width: 220px; 
+    background-color: blue;
+    border-radius: 6px;
+    margin: 20px;
+}
+.k:hover{
+    font-size: 26px;
+}
+#b{
+    color: white;
+    margin: 10px;
+}
+#c{
+    color: blue;
+    margin: 6px; 
+}
+#d{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#e{
+    font-size: 50px;
+    margin-left: 30px;
+    color: black;
+}
+#f{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#g{
+    height: 30px;
+    width: 400px;
+    
+}
+#h{
+    height: 30px;
+    width: 400px; 
+}
+#i{
+    margin: 5px 30px;
+    color: white;
+    padding-top: 5px; 
+}
+#j{
+    margin: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+#k{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgba(72, 63, 63, 0.957);
+}
+#l{
+   width: 700px;
+   margin-left: 30px;
+   
+}
+#m{
+    margin-left:20px ;
+    color: gray;
+}
+#n{
+    margin-left:90px ;
+    color: gray;
+}
+#nn{
+     margin-left:105px ;
+     color: gray;
+}
+.ab{
+    height: 1150px;
+    width: 1400px;
+    background-color:  rgb(246, 242, 237);
+}
+#ff{
+    width: 700px;
+   margin-left: 30px;
+   accent-color: red;
+}
+#kk{
+    width: 700px;
+   margin-left: 30px;
+   accent-color: green;
+}
+#mm{
+    width: 700px;
+   margin-left: 30px;
+   accent-color: yellow;
+}
+#pp{
+    width: 700px;
+   margin-left: 30px;
+   accent-color: rgba(14, 137, 238, 0.862);
+}
