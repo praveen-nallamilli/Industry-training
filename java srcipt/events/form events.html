@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>submit change reset</title>
+</head>
+<body>
+    <form id="myform">
+        <label >Enter Name</label>
+        <input type="text" id="fn" name="fname" onchange="change(this.value)">
+        <br>
+        <label >select college</label>
+        <select style="width: 300px;height: 30px;" onchange="sample()">
+        <option value="aditya">ADITYA</option>
+        <option value="giet">GIET</option>
+        <option value="pragathi">PRAGATHI</option>
+    </select>
+    <p  id="p_id"></p>
+    <input type="button" onclick="submitform()" value="submit">
+    <input type="button" onclick="resetform()" value="reset">
+    </form>
+    <script>
+        function submitform(){
+          document.getElementById('myform').submit() 
+        }
+        function resetform(){
+          document.getElementById('myform').reset() 
+        }
+        function changetext(){
+          const chText=document.getElementById('fn').submit() 
+          fn.value = fn.value.toUpperCase();
+        }
+        function sample(clg_name){
+            document.getElementById('p_id').innerText=clg_name
+        }
+    </script>
+</body>
+</html>

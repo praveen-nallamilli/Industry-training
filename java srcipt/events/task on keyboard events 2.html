@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task on keyboard events  </title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter name</h2>
+    <input type="text" id="inputField">
+    <span class="error" id="errorMessage"></span>
+    <span id="inputLength"></span>
+  <script>
+    const inputField = document.getElementById('inputField');
+const errorMessage = document.getElementById('errorMessage');
+const inputLengthSpan = document.getElementById('inputLength');
+
+inputField.addEventListener('input', function() {
+    if (inputField.value.length < 4) {
+        errorMessage.textContent = 'Input should have at least 3 characters.';
+        inputField.classList.add('error');
+    } else {
+        errorMessage.textContent = '';
+        inputField.classList.remove('error');
+    }
+
+    inputLength.textContent = inputField.value.length
+});
+  </script>
+</body>
+</html>

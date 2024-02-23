@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myImg" src="../task on js/car.png">
+    <button id="myButton">Change pic</button>
+    <table border="">
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+    </table>
+    <script>
+    const myImg = document.getElementById("myImg");
+    const myButton = document.getElementById("myButton");
+    myButton.addEventListener("click", function() 
+    {
+    myImg.src ="../task on js/car1.jpg";
+    }
+   );
+   const vc=document.getElementsByTagName('td')
+        console.log(vc)
+        vc[0].addEventListener("mouseover",myfunc1)
+        function myfunc1(){
+            vc[0].innerText='9'
+        }
+        vc[1].addEventListener("mouseover",myfunc2)
+        function myfunc2(){
+            vc[1].innerText='8'
+        }
+        vc[2].addEventListener("mouseover",myfunc3)
+        function myfunc3(){
+            vc[2].innerText='7'
+        }
+        vc[3].addEventListener("mouseover",myfunc4)
+        function myfunc4(){
+            vc[3].innerText='6'
+        }
+        vc[4].addEventListener("mouseover",myfunc5)
+        function myfunc5(){
+            vc[4].innerText='5'
+        }
+        vc[5].addEventListener("mouseover",myfunc6)
+        function myfunc6(){
+            vc[5].innerText='4'
+        }
+        vc[6].addEventListener("mouseover",myfunc7)
+        function myfunc7(){
+            vc[6].innerText='3'
+        }
+        vc[7].addEventListener("mouseover",myfunc8)
+        function myfunc8(){
+            vc[7].innerText='2'
+        }
+        vc[8].addEventListener("mouseover",myfunc9)
+        function myfunc9(){
+            vc[8].innerText='1'
+        }
+    </script>
+</body>
+</html>

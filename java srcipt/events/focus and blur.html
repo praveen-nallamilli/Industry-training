@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>focus and blur</title>
+</head>
+<body >
+   <form >
+    <label>focus</label>
+    <input type="text" name="s1" onfocus="sample(this,'green')">
+    <label >blur</label>
+    <input type="text" name="s2" onblur="sample(this,'red')">
+    <label >focus3</label>
+    <input type="text" name="s2" onfocus="sample(this,'orange')">
+   </form> 
+   <script type="text/javascript">
+    function sample(e,color_value){
+        e.style.background = color_value;
+    }
+   </script>
+</body>
+</html>

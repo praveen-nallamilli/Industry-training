@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function StrMethods(str_name){
+            document.write('<b>'+str_name+'<b><br>');
+        }
+
+        let str='Drive Ready batch '
+        let str2='   Mern batch '
+        let str3='new batch '
+
+        //original value
+        StrMethods('Original string is:'+str)
+
+        // to find out the length of the string
+        StrMethods('String length is='+str.length)
+
+        //to find the particular position of the string
+        StrMethods('Position of particular string value =' +str.charAt(3))
+
+        //to find the index of particular string
+        StrMethods('Index of string is ='+str.indexOf('y'))
+        StrMethods('Index of string is ='+str.indexOf('batch'))
+
+        // to find the last index of string for repeated letters
+        StrMethods('Last Index of string is ='+str.lastIndexOf('e'))
+        let str1= 'DRIVE READY'
+
+        //to convert into lowercase
+        StrMethods('Lower case of string ='+str.toLowerCase())
+        StrMethods('Upper case of string ='+str.toUpperCase())
+        
+        //to add multiple strings
+        StrMethods('Contatenation  of string ='+str.concat(str2));
+        StrMethods('Contatenation  of string ='+str.concat(str2 , str3));
+
+        // removing spaces
+        StrMethods('trim of string ='+str.trim());
+        
+        //converting string into array
+        console.log(str.split(""));
+        let newstr='uday&praveen&lokesh';
+        console.log(newstr.split("&"));
+        let newstr1='uday,praveen,lokesh';
+        console.log(newstr.split(","));
+
+        //return boolean values
+        StrMethods('startswith of string = '+str.startsWith("d"));
+        StrMethods('endswith of string ='+str.endsWith('y'));
+
+        //returns boolean values
+        //slice method
+        StrMethods('slice of string ='+str.slice(6,10));
+        StrMethods('slice of string ='+str.slice(-2)); //ch
+        StrMethods('slice of string ='+str.slice(-5));; //batch
+        StrMethods('slice of string ='+str.slice(-4,-2)); //ea
+
+        //substring method
+        //it is allowing the positive indexes
+        StrMethods('substring of the string='+str.substring(4,2));
+        
+        //substr menthod
+                StrMethods('substr of string ='+str.substr(1,7));
+
+         //includes menthod       
+

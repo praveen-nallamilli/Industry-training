@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>keyboard events</title>
+</head>
+<body>
+    <h2>KEYBOARD EVENTS</h2>
+    <form>
+        <p id="p_id"></p>
+<label>Key down</label>
+<input type="text" name="" onkeydown="getbg(this.value)">
+<br>
+<label>Key up</label>
+<input type="text" name="" onkeyup="getbg(this.value)">
+<br>
+<label>Key press</label>
+<input type="text" name="" onkeypress="getbg(this.value)">
+    </form>
+    <script text="text/javascript">
+        function getbg(value){
+           
+            
+        document.getElementById('p_id').innerHTML=value
+        }
+
+    </script>
+</body>
+</html>

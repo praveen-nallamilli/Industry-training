@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>events in js</title>
+</head>
+<body>
+    <button id="btn_id">click me</button>
+    <script type="text/javascript">
+        let btn = document.getElementById('btn_id');
+        //normal function calling
+        // btn.onclick=change;
+        // function change(){
+        //     document.body.style.backgroundColor='orange'
+        // }
+
+       // anonymus function calling
+        btn.onclick = function(){
+            document.body.style.backgroundColor='yellow'
+        }
+    </script>
+</body>
+</html>
