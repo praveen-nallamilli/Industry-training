@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>array methods</title>
+</head>
+<body>
+    <h1>Array methods</h1>
+    <ul>
+        <li>push</li>
+        <li>pop</li>
+        <li>shift</li>
+        <li>unshift</li>
+        <li>concate</li>
+        <li>indexOf</li>
+        <li>splice</li>
+        <li>slice</li>
+        <li>sort</li>
+    </ul>
+    <script>
+        let courses =['html','css','bootstarp']
+        console.log(courses)
+
+        courses.push('javascript')
+        console.log(courses)
+
+        courses.pop()
+        console.log(courses)
+
+        courses.unshift('react')
+        console.log(courses)
+
+        courses.shift()
+        console.log(courses)
+
+        let var1 =['apple','banana','orange','grapes'];
+        let var2 =['potato','tamota','cucumber'];
+        let combained = var1.concat(var2)
+        console.log(combained)
+
+      const var4= combained.slice(2)
+      console.log(var4)
+
+        combained.splice(2,2,'rasins','kiwi')
+        console.log(combained)
+
+        let var5= combained.indexOf('kiwi')
+        console.log(var5)        
+
+        let var3 =['apple','cucumber','babana','dates','egg']
+       let var6= var3.sort()
+        console.log(var6)
+    </script>
+</body>
+</html>

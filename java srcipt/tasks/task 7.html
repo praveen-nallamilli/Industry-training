@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <script>
+        function isPalindrome(number) {
+    // Convert the number to a string to easily compare characters
+    const numStr = number.toString();
+    
+    // Reverse the string
+    const reversedStr = numStr.split('').reverse().join('');
+    
+    // Check if the original string is equal to the reversed string
+    return numStr === reversedStr;
+}
+
+// Example usage:
+const userInput = prompt("Enter a number to check for palindrome:");
+const inputNumber = parseInt(userInput);
+
+if (isNaN(inputNumber)) {
+   document.write("Invalid input. Please enter a valid number.");
+} else {
+    if (isPalindrome(inputNumber)) {
+       document.write(`${inputNumber} is a palindrome.`);
+    } else {
+       document.write(`${inputNumber} is not a palindrome.`);
+    }
+}
+
+    </script>
+</body>
+</html>

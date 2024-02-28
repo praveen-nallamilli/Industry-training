@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <table id="productTable">
+        <tr>
+          <th>Product ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+    </table>
+    
+    <button id="addBtn">Add New</button>
+<script>
+    // Get the table element and the add button element
+const table = document.getElementById('productTable');
+const addBtn = document.getElementById('addBtn');
+
+// Add an event listener to the add button
+addBtn.addEventListener('click', function () {
+    // Insert a new row at the end of the table
+    const row = table.insertRow(-1);
+    // Insert four cells for each column
+    for (let i = 0; i < 4; i++) row.insertCell(i);
+    // Prompt the user to enter the product details and assign them to the cells
+    row.cells[0].innerHTML = "<input type='text' class='productId' value='" + row.cells[0].innerText + "' />";
+            row.cells[1].innerHTML = "<input type='text' class='name' value='" + row.cells[1].innerText + "' />";
+            row.cells[2].innerHTML = "<input type='number' class='price' value='" + row.cells[2].innerText + "' />";
+    
+    // Create an edit button and assign it a click event handler
+    const editBtn = document.createElement('button');
+    editBtn.innerText = 'Edit';
+    editBtn.onclick = function () {
+        // Prompt the user to edit the product details and assign them to the cells
+        row.cells[0].innerText = prompt("Edit Product ID:", row.cells[0].innerText);
+        row.cells[1].innerText = prompt("Edit Name:", row.cells[1].innerText);
+        row.cells[2].innerText = prompt("Edit Price:", row.cells[2].innerText);
+    };
+    
+    // Create a delete button and assign it a click event handler
+    const deleteBtn = document.createElement('button');
+    deleteBtn.innerText ='Delete';
+    deleteBtn.onclick= function() {
+        // Confirm with the user if they want to delete the record and remove the row
+        if(confirm("Do you want to delete the record?")) 
+            table.deleteRow(row.rowIndex)
+     };
+
+     // Append the edit and delete buttons to the last cell
+     let cell=row.insertCell(3)
+     cell.appendChild(editBtn);
+     cell.appendChild(deleteBtn); 
+});
+
+</script>   
+</body>
+</html>

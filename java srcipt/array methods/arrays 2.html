@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>array methods</title>
+</head>
+<body>
+    <script>
+        let birthYear =[2000,2001,2002,2003,2004,2005,2006,2007];
+        //anonymous function
+        // let ages = birthyear.map(function(year,index,arr){
+        //     let age = 2024-year;
+        //     return"current age is "+age;
+        // })
+
+        //named funtion
+        // let ages = birthYear.map(findAge)
+        // function findAge(year,index,arr){
+        //     console.log("current element is"+year)
+        //     console.log("element index position is "+index)
+        //     console.log("current array is "+arr)
+        //     let age = 2024-year;
+        //     return"current age is "+age;
+        // }
+
+        //arrow function
+        let ages = birthYear.map((year,index,arr)=>{
+            let age = 2024-year;
+           return"current age is "+age;
+        })
+
+        console.table(birthYear)
+        console.table(ages)
+    </script>
+</body>
+</html>

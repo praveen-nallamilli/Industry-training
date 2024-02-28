@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>task on function</title>
+</head>
+<body>
+    <button onclick=" funname()   ">button</button>
+    <br>
+    <input type="text" id="name_id" >
+
+    <button onclick="getname()">click here</button>
+    <br>
+    <span id="id" ></span>
+    <script text="text/javascript">
+        // function with out parameters
+        function funname(){
+         alert('executed')
+        }
+      
+        //funtions with parameters
+        function getname(){
+        alert(  document.getElementById('name_id').value)
+            document.getElementById('id').innerHTML=document.getElementById('name_id').value
+        }
+     </script>
+</body>
+</html>
