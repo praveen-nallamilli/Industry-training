@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>reduced method</title>
+</head>
+<body>
+    <script>
+         let nums = [7,90,8,105];
+        // let sum = nums.reduce((acc,ele)=>{
+        //     return acc + ele
+        // },0);
+        //first itteration acc=0,ele=7 =>0+7 =7
+        //second itteration acc=7,ele=90 =>7+90 =97
+        //third itteration acc=97,ele=8 =>97+8 =105
+        // console.log(sum);
+        //finding the maximum value
+        let maximum_value=nums.reduce((acc,ele)=>{
+            if(acc>ele){
+                return acc
+            }else{
+                return ele
+            }
+        },nums[0]);
+        //first itteration acc=7,ele=7 =>7>7 =7
+        //second itteration acc=7,ele=90 =>7>90 =90
+        //third itteration acc=90,ele=8 =>90>8 =90
+        //fourth itterraton acc=90>105=105
+        console.log(maximum_value)
+    </script>
+</body>
+</html>

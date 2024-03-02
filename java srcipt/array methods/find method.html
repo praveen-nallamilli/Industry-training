@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>find method</title>
+</head>
+<body>
+    <h2>Find Method</h2>
+    <script type="text/javascript">
+        //arrow function
+        let courses=['html','css','bootstrap','javascript','react js',];
+        // let getcourses=courses.find((courses,index)=>{
+        //     return courses.endsWith('s');
+        // })
+        // console.log(getcourses);
+      //  anonymous function
+     let getcourses=courses.find(function (courses,index){
+             return courses.startsWith('j');
+         })
+         console.log(getcourses);
+    </script>
+</body>
+</html>

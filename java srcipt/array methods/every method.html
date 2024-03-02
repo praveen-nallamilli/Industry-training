@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>every Method</title>
+</head>
+<body>
+    <script>
+        let student_marks =[55,40,36,45,53,100]
+        let final_result = student_marks.every((score,i)=>{
+            console.log(score);
+            return score > 35;
+        })
+        console.log(final_result);
+    </script>
+</body>
+</html>

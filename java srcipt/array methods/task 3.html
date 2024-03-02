@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+</head>
+<body>
+  <h1>find the name starting letter </h1>
+    <input type="text" id="inputData" placeholder="Enter name to search...">
+<button onclick="findData()">Search</button>
+
+<p id="result"></p>
+
+<script>
+function findData() {
+  const names  =['sai','praveen','arun','murali','prakash','rani','santhos','raj','lokesh','uday','tiru']
+
+  const inputValue = document.getElementById("inputData").value;
+  const foundElement = names.find((element, index) => {
+    if (element.toLowerCase().startsWith(inputValue.toLowerCase())) {
+      return true;
+    }
+    return false;
+  });
+
+  if (foundElement) {
+    const remainingCharacters = foundElement.slice(inputValue.length);
+    document.getElementById("result").innerHTML = `${inputValue}${remainingCharacters}`;
+  } else {
+    document.getElementById("result").innerHTML = ` undefined.`;
+  }
+}
+</script>
+</body>
+</html>
