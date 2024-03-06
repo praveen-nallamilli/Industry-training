@@ -3,31 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Checker</title>
+    <title>email checker</title>
 </head>
 <body>
-    <h1>Email Checker</h1>
-    <input type="email" id="emailInput" placeholder="Enter an email address">
-    <button onclick="checkEmail()">Check</button>
-    <p id="result" style="color: red;"></p>
-    <p id="result2" style="color: rgb(9, 250, 9);"></p>
-
+    <input type="text" id="textContent" placeholder="Enter the email">
+    <button id="btn">check</button>
     <script>
-        const emails = ['praveen@gmail.com','prakash@gmail.com','arun@gmail.com','murali@gmail.com','sai@gmail.com'];
-
-        function checkEmail() {
-            const emailToCheck = document.getElementById("emailInput").value;
-            const exists = emails.includes(emailToCheck);
-
-            const resultElement = document.getElementById("result");
-            const resultElement2 = document.getElementById("result2");
-
-            if (exists) {
-                resultElement.textContent = `${emailToCheck} this is already exists.`;
-            } else {
-                resultElement2.textContent = `${emailToCheck} yes proceed.`;
-            }
-        }
+          
     </script>
 </body>
 </html>

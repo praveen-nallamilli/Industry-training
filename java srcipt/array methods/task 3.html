@@ -18,7 +18,7 @@ function findData() {
 
   const inputValue = document.getElementById("inputData").value;
   const foundElement = names.find((element, index) => {
-    if (element.toLowerCase().startsWith(inputValue.toLowerCase())) {
+    if (element.startsWith(inputValue.toLowerCase())) {
       return true;
     }
     return false;

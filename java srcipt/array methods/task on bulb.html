@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Light Bulb Example</title>
+</head>
+<body>
+	<button id="bulb-button">Turn on light bulb</button>
+	<img id="bulb-image" src="../array methods/light-bulb-off.png" alt="Off light bulb">
+	<script >
+       
+    const button = document.getElementById("bulb-button");
+    const image = document.getElementById("bulb-image");
+    button.addEventListener("click", () => {
+     if (image.src.endsWith("light-bulb-off.png")) {
+    image.src = "light-bulb-on.png";
+    button.textContent = "Turn off light bulb";
+  } else {
+    image.src = "light-bulb-off.png";
+    button.textContent = "Turn on light bulb";
+  }
+});
+    </script>
+</body>
+</html>
