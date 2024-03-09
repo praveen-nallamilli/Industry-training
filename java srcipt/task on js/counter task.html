@@ -6,25 +6,27 @@
     <title>counter task</title>
 </head>
 <body>
-   <h3>count is:<div id="counter">0</div></h3> 
-<button id="increment">Increment</button>
-<button id="decrement">Decrement</button>
+   
+<button id="increment" onclick="lll()">Increment</button>
+<h1>count:<p id="counter"> 0</p></h1>
+<button id="decrement" onclick="kkk()">Decrement</button>
+
 <script>
-    const counter = document.getElementById('counter');
+    
 const incrementButton = document.getElementById('increment');
 const decrementButton = document.getElementById('decrement');
-
+const counter = document.getElementById('counter');
 let count = 0;
 
-incrementButton.addEventListener('click',function ()  { 
+function lll()  { 
   count++;
   counter.textContent = count;
-});
+};
 
-decrementButton.addEventListener('click', function () {
+function kkk() {
   count--;
   counter.textContent = count;
-});
+};
 </script>
 </body>
 </html>

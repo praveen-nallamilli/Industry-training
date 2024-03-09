@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body{
+            background-color: rgb(119, 106, 223);
+        }
+        h1{
+            color: rgb(241, 36, 0);
+            text-align: center;
+            font-size: 40px;
+        }
+        div{
+            height: 400px;
+            width: 400px;
+            border: 6px solid black;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+        button{
+            border-radius: 1px;
+            background-color:rgb(13, 255, 13) ;
+            height: 30px;
+            width: 130px;
+        }
+        h2{
+            color: rgba(0, 220, 220, 0.883);
+            text-align: center;
+        }
+        input{
+            border: 2px solid black;
+            width: 100px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Guess the Number </h1>
+    <h1>Game</h1>
+    <h2>Guess a number between 1 and 10:<h2>
+    <input type="number" id="userGuess">
+    <button onclick="checkGuess()">Submit Guess</button>
+    <p id="result"></p>
+    <a id="sai"></a>
+
+
+    <script>
+       
+        const randomNumber = Math.floor(Math.random() * 10) + 1;
+       
+        function checkGuess() {
+            const userGuess = Number(document.getElementById('userGuess').value);
+
+
+            if (userGuess === randomNumber) {
+                document.getElementById('result').textContent = 'Congratulations! You guessed the correct number.' ,'claim your gift ';
+                document.getElementById('sai').setAttribute()
+            } else {
+                document.getElementById('result').textContent = 'Try again!'
+            }
+        }
+    </script>
+    </div>
+</body>
+</html>

@@ -34,7 +34,7 @@
 </head>
 <body>
     <div id="calculator">
-        <input type="text" id="display" readonly>
+        <input type="text" id="display" >
         <button onclick="clearDisplay('AC')">AC</button>
         <br>
         <button onclick="appendToDisplay('1')">1</button>
@@ -60,7 +60,6 @@
     
 
     <script>
-        // JavaScript logic goes here
         let expression = '';
 
         function appendToDisplay(value) {
